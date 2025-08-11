@@ -6,7 +6,7 @@ export type Expense = {
   date: Value;
 };
 
-export type DraftExpnese = Omit<Expense, "id">;
+export type DraftExpense = Omit<Expense, "id">;
 
 type valuePiece = Date | null;
 export type Value = valuePiece | [valuePiece, valuePiece];
